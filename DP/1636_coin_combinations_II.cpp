@@ -1,4 +1,4 @@
-/*  1. define: dp(i, x) : valid ways to make x using c1, c2, ....ci
+/*  1. dp-state define: dp(i, x) : valid ways to make x using c1, c2, ....ci
     2. final ans: dp(N, X)
     3. recursive relation: dp(i, x) = dp(i-1, x) + dp(i, x-ci)
     4. edge case: dp(i, 0) = 1 
