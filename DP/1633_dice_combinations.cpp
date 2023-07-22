@@ -1,5 +1,5 @@
 /*
-1. define: dp(i) : no of valid ways of throwing dice so that sum = i
+1. dp-state define: dp(i) : no of valid ways of throwing dice so that sum = i
 2. final ans : dp(n)
 3. recurrence: dp(i) = dp(i-1) + dp(i-2)+...+ dp(i-6) 
 4. edge case: dp(0) = 1
